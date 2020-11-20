@@ -1,6 +1,6 @@
 {
   "name": "rastreio-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rastreamento de objetos integrado aos serviços dos Correios",
   "main": "src/index.js",
   "author": "Igor Junior <igorjunior@protonmail.com>",

@@ -1,0 +1,32 @@
+{
+  "name": "rastreio-promise",
+  "version": "1.0.0",
+  "description": "Rastreamento de objetos integrado aos serviços dos Correios",
+  "main": "src/index.js",
+  "author": "Igor Junior <igorjunior@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorjunior/rastreio-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorjunior/rastreio-promise/issues"
+  },
+  "keywords": [
+    "rastreio",
+    "correios",
+    "rastreamento",
+    "busca",
+    "promise",
+    "objetos"
+  ],
+  "homepage": "https://github.com/igorjunior/rastreio-promise",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}

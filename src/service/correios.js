@@ -2,12 +2,13 @@
 const fetch = require('node-fetch');
 const FormData = require('form-data');
 const cheerio = require('cheerio');
-
+const iconv = require('iconv-lite');
 function parseResponse (response) {
   if (!response.ok) {
     throw new Error('Erro ao rastrear objeto.')
   }
-  return response.text()
+  return response.arrayBuffer()
+  .then(arrayBuffer => iconv.decode(Buffer.from(arrayBuffer), 'iso-8859-1').toString())
   .then(parseAndExtractHTML)
 }
 
@@ -37,13 +38,13 @@ function extractValues(logs){
     throw new Error('Erro ao extrair eventos do rastreio.')
   const events = [];
   logs.forEach((ev) => {
-    const local = ev[0][2].replace(/ /g, '').split('/');
+    const local = ev[0][2].split('/');
     const event = {
       data: ev[0][0],
       dataHora: `${ev[0][0]} ${ev[0][1]}`,
       descricao: ev[1][0],
-      cidade: local[0],
-      uf: local[1]
+      cidade: local[0].trim(),
+      uf: local[1].trim()
     }
     if(ev[1][1]){
       const destino = ev[1][1].split(' ');

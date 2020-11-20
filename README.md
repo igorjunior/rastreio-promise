@@ -96,6 +96,18 @@ rastreio('OL412467368BR')
   //}
 ```
 
+### Instalação
+
+#### npm
+```
+$ npm install --save rastreio-promise
+```
+
+#### yarn
+```
+$ yarn add rastreio-promise
+```
+
 ## Autor
 
 

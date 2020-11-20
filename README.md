@@ -33,29 +33,29 @@ rastreio('OL312467368BR')
   //  {
   //    data: '13/11/2020',
   //    dataHora: '13/11/2020 15:13',
-  //    descricao: 'Objeto entregue ao destinat�rio',
+  //    descricao: 'Objeto entregue ao destinatário',
   //    cidade: 'Guapo ',
   //    uf: ' GO'
   //  },
   //  {
   //    data: '13/11/2020',
   //    dataHora: '13/11/2020 15:11',
-  //    descricao: 'Objeto saiu para entrega ao destinat�rio',
+  //    descricao: 'Objeto saiu para entrega ao destinatário',
   //    cidade: 'Guapo ',
   //    uf: ' GO'
   //  },
   //  {
   //    data: '12/11/2020',
   //    dataHora: '12/11/2020 09:30',
-  //    descricao: 'Objeto em tr�nsito - por favor aguarde',
-  //    cidade: 'APARECIDADEGOIANIA',
+  //    descricao: 'Objeto em trânsito - por favor aguarde',
+  //    cidade: 'APARECIDA DE GOIANIA',
   //    uf: 'GO',
   //    destino: { cidade: 'Guapo', uf: 'GO' }
   //  },
   //  {
   //    data: '10/11/2020',
   //    dataHora: '10/11/2020 19:00',
-  //    descricao: 'Objeto em tr�nsito - por favor aguarde',
+  //    descricao: 'Objeto em trânsito - por favor aguarde',
   //    cidade: 'CAJAMAR',
   //    uf: 'SP',
   //    destino: { cidade: 'GOIANIA', uf: 'GO' }
@@ -63,7 +63,7 @@ rastreio('OL312467368BR')
   //  {
   //    data: '09/11/2020',
   //    dataHora: '09/11/2020 10:51',
-  //    descricao: 'Objeto em tr�nsito - por favor aguarde',
+  //    descricao: 'Objeto em trânsito - por favor aguarde',
   //    cidade: 'Santos',
   //    uf: 'SP',
   //    destino: { cidade: 'CAJAMAR', uf: 'SP' }
@@ -72,8 +72,8 @@ rastreio('OL312467368BR')
   //    data: '06/11/2020',
   //    dataHora: '06/11/2020 15:23',
   //    descricao: 'Objeto postado',
-  //    cidade: 'Santos ',
-  //    uf: ' SP'
+  //    cidade: 'Santos',
+  //    uf: 'SP'
   //  }
   //]
 ```

@@ -1,4 +1,4 @@
-const rastreio = require('./services/correios');
+const rastreio = require('./service/correios');
 
 module.exports = async (codigo) =>  {
   if (codigo.length !== 13) {

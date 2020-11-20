@@ -9,7 +9,17 @@
 </p>
 
 ## Como utilizar
+### Instalação
 
+#### npm
+```
+$ npm install --save rastreio-promise
+```
+
+#### yarn
+```
+$ yarn add rastreio-promise
+```
 
 ### Realizando uma consulta
 
@@ -94,18 +104,6 @@ rastreio('OL412467368BR')
   //  error: 'service_error',
   //  message: 'O serviço não retornou eventos para este código de rastreio.'
   //}
-```
-
-### Instalação
-
-#### npm
-```
-$ npm install --save rastreio-promise
-```
-
-#### yarn
-```
-$ yarn add rastreio-promise
 ```
 
 ## Autor

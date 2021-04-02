@@ -1,30 +1,25 @@
 {
-  "name": "rastreio-promise",
-  "version": "1.0.5",
-  "description": "Rastreamento de objetos integrado aos serviços dos Correios",
+  "name": "ip-promise",
+  "version": "1.0.0",
+  "description": "Free IP Geolocation services",
   "main": "src/index.js",
   "author": "Igor Junior <igorjunior@protonmail.com>",
   "license": "MIT",
-  "repository": "git+https://github.com/igorjunior/rastreio-promise.git",
+  "repository": "git+https://github.com/igorjunior/ip-promise.git",
   "bugs": {
-    "url": "https://github.com/igorjunior/rastreio-promise/issues"
+    "url": "https://github.com/igorjunior/ip-promise/issues"
   },
   "keywords": [
-    "rastreio",
-    "correios",
-    "rastreamento",
-    "busca",
-    "promise",
-    "objetos"
+    "ip",
+    "geolocation",
+    "free"
   ],
-  "homepage": "https://github.com/igorjunior/rastreio-promise",
+  "homepage": "https://github.com/igorjunior/ip-promise",
   "files": [
     "src"
   ],
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "form-data": "^3.0.0",
-    "iconv-lite": "^0.6.2",
-    "node-fetch": "^2.6.1"
+    "axios": "^0.21.1",
+    "https": "^1.0.0"
   }
 }

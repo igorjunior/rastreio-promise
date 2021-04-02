@@ -1,8 +1,12 @@
 'use strict'
-const fetch = require('node-fetch');
-const FormData = require('form-data');
-const cheerio = require('cheerio');
-const iconv = require('iconv-lite');
+const axios = require('axios');
+
+const api = axios.create({
+  httpsAgent: new https.Agent({  
+    rejectUnauthorized: false
+  })
+});
+
 function parseResponse (response) {
   if (!response.ok) {
     throw new Error('Erro ao rastrear objeto.')
